@@ -194,10 +194,6 @@ on boot
     chmod 0666 /sys/class/drm/card0-DSI-1/dimlayer_bl_en
     chmod 0666 /sys/class/drm/card0-DSI-1/dither_en
 
-    # Reduce default vibrator gain from 0x80 to 0x55,
-    # also allow gain customization via persistent property
-    write /sys/class/leds/vibrator/gain ${persist.vendor.vib.gain:-0x55}
-
 on init
     setprop vendor.boot.verifiedbootstate ${ro.boot.verifiedbootstate}
     setprop vendor.boot.hw_version ${ro.boot.hw_version}
