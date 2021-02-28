@@ -987,6 +987,14 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
+# Stock Audio HAL
+vendor/lib/libaudioconfigstore.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libopf.so
+vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
+vendor/lib/hw/audio.primary.kona.so
+vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
+
 # Thermal engine
 vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
